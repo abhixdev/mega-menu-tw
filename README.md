@@ -1,4 +1,4 @@
-#Project to create Mega Menu Navigation bar using Tailwind CSS.
+# Project to create Mega Menu Navigation bar using Tailwind CSS.
 
 ## How to Start
 - Clone Repo.
