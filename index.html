@@ -12,6 +12,10 @@
     }
   </style>
   <link rel="stylesheet" href="style.css" />
+  
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
 </head>
 
 <body class="bg-slate-100">
@@ -103,6 +107,31 @@
       </div>
     </div>
   </nav>
+
+ <!-- Announcement bar Swiper -->
+ <div class="swiper announcementBar h-8 bg-red-500">
+  <div class="swiper-wrapper text-center">
+    <div class="swiper-slide content-center text-white"><p>Get 10% off your first purchase when you sign up for our emails. *T&C apply.</p></div>
+    <div class="swiper-slide content-center text-white"><p>★★★★★ 4.7 rating from 11.8k certified reviews</p></div>
+    <div class="swiper-slide content-center text-white"><p>Free UK shipping on orders over £175</p></div>
+    <div class="swiper-slide content-center text-white"><p>28 Day Return Policy | Terms & Conditions apply</p></div>
+    <div class="swiper-slide content-center text-white"><p>Spoilt for Choice? Find Your Match with our Quiz</p></div>
+  </div>
+</div>
+
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".announcementBar", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 1500,
+      disableOnInteraction: false,
+    }
+  });
+</script>
+
 
 </html>
