@@ -66,16 +66,6 @@
               </div>
             </div>
  
-              <!-- <div class="relative p-6 bg-slate-200 rounded-xl shadow-xl w-full">
-
-                <div class="relative z-1">
-                  <div class="grid grid-cols-2 gap-6">
-                    <div>Hello</div>
-                    <div>Hello 2</div>
-                  </div>
-                </div>
-              </div> -->
-
             </div>
           </li>
           <li>
@@ -84,8 +74,24 @@
           <li>
             <a class="transition-colors hover:text-blue-500" href="#">Blog</a>
           </li>
-          <li>
-            <a class="transition-colors hover:text-blue-500" href="#">References</a>
+          <li class="relative group">
+            <a class="transition-colors hover:text-blue-500" href="#">Resources</a>
+
+            <div class="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible w-fit">
+              <div class="bg-slate-200 border rounded-md border-black p-4 shadow-xl font-medium">
+                <p class="text-xs text-gray-500">Tutorials</p>
+                <hr class="my-2 border-black">
+                <ul class="">
+                  <li class="hover:text-blue-500"><a href="https://www.google.com">HTML</a></li>
+                  <li class="hover:text-blue-500"><a href="#">CSS</a></li>
+                  <li class="hover:text-blue-500"><a href="#">JavaScript</a></li>
+                  <li class="hover:text-blue-500"><a href="#">NodeJS</a></li>
+                  <li class="hover:text-blue-500"><a href="#">Git</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+
           </li>
           <li>
             <a class="transition-colors hover:text-blue-500" href="#">About</a>
