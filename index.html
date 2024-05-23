@@ -21,7 +21,10 @@
 
   <body class="bg-slate-100">
     <!-- Announcement bar Swiper -->
-    <div class="swiper announcementBar h-12 md:h-8 bg-red-500">
+    <div
+      id="swiper-custom"
+      class="swiper announcementBar h-12 md:h-8 bg-red-500"
+    >
       <div class="swiper-wrapper text-center text-sm">
         <div class="swiper-slide content-center text-white">
           <p>
@@ -42,6 +45,8 @@
           <p>Spoilt for Choice? Find Your Match with our Quiz</p>
         </div>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
 
     <!-- Navigation Bar -->
@@ -301,6 +306,10 @@
       autoplay: {
         delay: 1500,
         disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     });
   </script>

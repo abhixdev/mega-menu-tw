@@ -15,3 +15,8 @@ body::-webkit-scrollbar-thumb {
   border-radius: 0px; /* roundness of the scroll thumb */
   border: 1px solid rgb(22, 22, 22); /* creates padding around scroll thumb */
 }
+
+#swiper-custom {
+  --swiper-theme-color: white;
+  --swiper-navigation-size: 18px;
+}
